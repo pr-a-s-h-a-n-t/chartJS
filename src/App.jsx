@@ -1,9 +1,10 @@
 import "./App.css";
+import GptHome from "./pages/Home";
 
 function App() {
   return (
     <>
-      <h1>Hello Coder </h1>
+      <GptHome />
     </>
   );
 }
