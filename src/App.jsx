@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import GptHome from "./pages/Home";
 
 function App() {
