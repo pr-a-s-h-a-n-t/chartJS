@@ -4,23 +4,104 @@ export const menuItems = [
     link: "/",
   },
   {
-    label: "ABOUT US",
-    link: "/About",
+    label: "Research",
+    link: "/research",
+    sub: [
+      {
+        label: "Overview",
+        link: "/overview",
+      },
+      {
+        label: "Index",
+        link: "/index",
+      },
+    ],
   },
   {
-    label: "SERVICES",
-    link: "/Services",
+    label: "Product",
+    link: "/product",
+    sub: [
+      {
+        label: "Overview",
+        link: "/overview",
+      },
+      {
+        label: "ChatGPT",
+        link: "/chatgpt",
+      },
+      {
+        label: "GPT-4",
+        link: "/gpt4",
+      },
+      {
+        label: "DALL·E 2",
+        link: "/dalle2",
+      },
+      {
+        label: "Customer stories",
+        link: "/customerstories",
+      },
+      {
+        label: "Safety standards",
+        link: "/safetystandards",
+      },
+      {
+        label: "API data privacy",
+        link: "/apidataprivacy",
+      },
+      {
+        label: "Pricing",
+        link: "/pricing",
+      },
+    ],
   },
   {
-    label: "MEMBERSHIP",
-    link: "/Memberships",
+    label: "Developers",
+    link: "/developers",
+    sub: [
+      /*
+    Overview
+Documentation
+API reference
+Examples
+    */
+      {
+        label: "Overview",
+        link: "/overview",
+      },
+      {
+        label: "Documentation",
+        link: "/documentation",
+      },
+      {
+        label: "API reference",
+        link: "/apireference",
+      },
+      {
+        label: "Examples",
+        link: "/examples",
+      },
+    ],
   },
   {
-    label: "FAQ",
-    link: "/FAQ",
+    label: "Safety",
+    link: "/safety",
   },
   {
-    label: "CONTACT US",
-    link: "/Contact-Us",
+    label: "Company",
+    link: "/company",
+  },
+
+  {
+    label: "Search",
+    link: "/search",
+  },
+  {
+    label: "Log in",
+    link: "/login",
+  },
+  {
+    label: "Sign up",
+    link: "/signup",
   },
 ];
