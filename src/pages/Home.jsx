@@ -57,6 +57,22 @@ const GptHome = () => {
       <div className="overlay">
         <div className="typing-text">{typedText}</div>
       </div>
+      <div
+        style={{
+          position: "fixed",
+          bottom: "10%",
+          left: "2%",
+          // transform: "translate(-50%, -50%)",
+          // width: "100vw",
+          // height: "100vh",
+        }}
+      >
+        <h3>
+          ChatGPT: get instant answers, find creative inspiration, and learn
+          something <br />
+          new. Use ChatGPT for free today.
+        </h3>
+      </div>
     </div>
   );
 };
