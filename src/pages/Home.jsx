@@ -48,9 +48,20 @@ const GptHome = () => {
     <div>
       <nav>
         {menuItems?.map((item, index) => (
-          <a href={item.link} key={index}>
-            {item.label}
-          </a>
+          <div>
+            <a href={item.link} key={index}>
+              {item.label}
+            </a>
+            {item.sub && (
+              <div className="sub-menu">
+                {item.sub.map((subItem, index) => (
+                  <a href={subItem.link} key={index}>
+                    {subItem.label}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
         ))}
       </nav>
 
