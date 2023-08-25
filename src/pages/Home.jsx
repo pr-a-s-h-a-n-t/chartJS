@@ -73,7 +73,14 @@ const GptHome = () => {
           <div key={item.link}>
             <a href={item.link}>{item.label}</a>
             {item.sub && (
-              <div className="sub-menu">
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "start",
+                }}
+                className="sub-menu"
+              >
                 {item.sub.map((subItem) => (
                   <a href={subItem.link} key={subItem.link}>
                     {subItem.label}
@@ -85,9 +92,9 @@ const GptHome = () => {
         ))}
       </nav>
 
-      <div className="overlay">
+      {/* <div className="overlay">
         <div className="typing-text">{typedText}</div>
-      </div>
+      </div> */}
       <div
         style={{
           position: "fixed",
@@ -112,7 +119,11 @@ const GptHome = () => {
             >
               {/* Insert your SVG here */}
             </a>
+            <a href="">Try on web 🚀</a>
           </div>
+        </div>
+        <div>
+          ChatGPT for iOS and Android is available in these countries & regions.
         </div>
       </div>
     </div>
